@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MakefileBuildTargetsManager">
+    <user-build-targets>
+      <build-target name="kernel/kernel fs.img">
+        <build-configurations>
+          <build-configuration toolchainName="KALI">
+            <make-targets>
+              <make-target>kernel/kernel</make-target>
+              <make-target>fs.img</make-target>
+            </make-targets>
+          </build-configuration>
+        </build-configurations>
+      </build-target>
+      <build-target name="kernel/kernel .gdbinit fs.img">
+        <build-configurations>
+          <build-configuration toolchainName="KALI">
+            <make-targets>
+              <make-target>kernel/kernel</make-target>
+              <make-target>.gdbinit</make-target>
+              <make-target>fs.img</make-target>
+            </make-targets>
+          </build-configuration>
+        </build-configurations>
+      </build-target>
+      <build-target name="clean">
+        <build-configurations>
+          <build-configuration toolchainName="KALI">
+            <make-targets>
+              <make-target>clean</make-target>
+            </make-targets>
+          </build-configuration>
+        </build-configurations>
+      </build-target>
+    </user-build-targets>
+  </component>
+</project>

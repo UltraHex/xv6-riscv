@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="c4269f45-483a-4181-80ba-51eb55a59662" name="pre-qemu" defaultType="MAKE">
+      <configuration id="ccbb6201-2b01-44ec-ab2c-ad175a5c649d" name="pre-qemu" toolchainName="KALI">
+        <build type="MAKE">
+          <make targetName="kernel/kernel fs.img" />
+        </build>
+        <clean type="MAKE">
+          <make targetName="clean" />
+        </clean>
+      </configuration>
+    </target>
+    <target id="c17fd757-44cb-4fba-9edb-52406315d533" name="pre-qemu-gdb" defaultType="MAKE">
+      <configuration id="076a7dba-1fbd-4ca1-b896-30b0958a42a8" name="pre-qemu-gdb" toolchainName="KALI">
+        <build type="MAKE">
+          <make targetName="kernel/kernel .gdbinit fs.img" />
+        </build>
+        <clean type="MAKE">
+          <make targetName="clean" />
+        </clean>
+      </configuration>
+    </target>
+  </component>
+</project>
