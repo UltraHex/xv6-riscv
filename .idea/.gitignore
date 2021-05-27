@@ -8,3 +8,5 @@
 /httpRequests/
 # Dicord Plugin
 /discord.xml
+# Things that aren't useful to other people
+/deployment.xml
